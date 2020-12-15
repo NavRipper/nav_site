@@ -8407,11 +8407,11 @@ h1, h2, h3, h4, h5,
     width: 100%; }
 
 .slider-text .subheading {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 800;
-  color: #3e64ff;
-  letter-spacing: 4px; }
+  
+  font-size: 11px;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 3px; }
 
 .slider-text h1 {
   font-size: 60px;
@@ -8434,7 +8434,8 @@ h1, h2, h3, h4, h5,
   .slider-text p strong {
     font-weight: 700; }
     .slider-text p strong a {
-      color: #000000; }
+      color: black; }
+
 
 .slider-text .breadcrumbs {
   font-size: 16px;
@@ -8459,7 +8460,7 @@ h1, h2, h3, h4, h5,
   font-size: 60px; }
 
 .mouse {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 120px;
@@ -9061,7 +9062,7 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 3em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9179,12 +9180,20 @@ textarea.form-control {
 .heading-section {
   position: relative; }
   .heading-section .subheading {
-    font-size: 13px;
+    font-size: 5px;
     font-weight: 500;
     display: block;
     margin-bottom: 5px;
-    text-transform: uppercase;
+    
     color: black;
+    letter-spacing: 3px; }
+	.heading-section .subheading2 {
+    font-size: 10px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+	text-transform: uppercase;	
     letter-spacing: 3px; }
   .heading-section h1.big {
     position: absolute;
@@ -9205,6 +9214,8 @@ textarea.form-control {
       .heading-section h2 {
         font-size: 38px; } }
   .heading-section.heading-section-white .subheading {
+    color: rgba(255, 255, 255, 0.9) !important; }
+  .heading-section.heading-section-white .subheading2 {
     color: rgba(255, 255, 255, 0.9) !important; }
   .heading-section.heading-section-white h2 {
     color: #fff; }
